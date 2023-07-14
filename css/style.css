@@ -285,27 +285,32 @@ header .search-bar-container label:hover{
 
 .about{
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
-    background: var(--bg-color);
 }
 
 .about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 300px;
     border-radius: 20px;
-    margin-right: 120px;
-    margin-left: 20px;
-    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 25px;
     box-shadow: -7px 7px 10px 0 #000080;
 }
 
 .heading{
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
     font-size: 45px;
 }
 
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .about-content h2{
     text-align: left;
@@ -318,9 +323,14 @@ header .search-bar-container label:hover{
     margin-top: 5px;
 }
 
-.about-content span{
-    color: var(--main-color);
+.about-content p{
+    margin-top: 15px; 
+    font-size: 18px;
+    line-height: 2.0; 
+    text-transform: none;
 }
+
+
 
 
 
@@ -350,6 +360,7 @@ header .search-bar-container label:hover{
 }
 
 @media(max-width: 768px) {
+
     #menu-bar{
         display: initial;
     }
@@ -357,6 +368,7 @@ header .search-bar-container label:hover{
     header img{
         width: 180px;
     }
+
 
     header .navbar{
         position: absolute;
