@@ -32,6 +32,21 @@ section{
     padding: 2rem 9%;
 }
 
+.book .heading{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+
+.heading span{
+    font-size: 3.5rem;
+    background: rgba(255, 0, 0, .2);
+    color: var(--blue);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    display: inline-block;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
