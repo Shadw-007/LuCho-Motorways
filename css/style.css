@@ -36,6 +36,14 @@ section{
     display: flex;
     justify-content: center;
     padding: 2.5rem 0;
+    gap: .2rem;
+}
+
+.services .heading{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+    gap: .2rem;
 }
 
 .heading span{
@@ -355,12 +363,16 @@ header .search-bar-container label:hover{
 
 /* ------ Book Now Section --------- */
 
+.book{
+    min-height: 80vh;
+}
+
 .book .row{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .book .row .image{
@@ -396,10 +408,69 @@ header .search-bar-container label:hover{
 
 .book .row form .inputBox h3{
     font-size: 2rem;
-    padding: 1rem;
-    
+    padding: 1rem 0;
+    color: #666;
+
 }
 
+
+/* ------- Services Section -------- */
+
+
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services .box-container .box{
+    flex: 1 1 30rem;
+
+}
+
+.services .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+.services .box-container .box .content{
+    padding: 2rem;
+}
+
+.services .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.services .box-container .box .content h3 i{
+   color:var(--blue);
+}
+
+.services .box-container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.services .box-container .box .content .stars i{
+    font-size: 2rem;
+    color:var(--red);
+}
+
+.services .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+}
+
+.services .box-container .box .content .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
 
 
 
