@@ -46,6 +46,13 @@ section{
     gap: .2rem;
 }
 
+.destinations .heading{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+    gap: .2rem;
+}
+
 .heading span{
     font-size: 3.5rem;
     background: rgba(255, 0, 0, .2);
@@ -339,6 +346,10 @@ header .search-bar-container label:hover{
     align-items: center;
 }
 
+.about .about-content small a{
+    color: var(--blue);
+}
+
 .about-content h2{
     text-align: left;
     line-height: 1.2;
@@ -364,7 +375,8 @@ header .search-bar-container label:hover{
 /* ------ Book Now Section --------- */
 
 .book{
-    min-height: 80vh;
+    min-height: 100vh;
+    padding-top: 8rem;
 }
 
 .book .row{
@@ -416,6 +428,10 @@ header .search-bar-container label:hover{
 
 /* ------- Services Section -------- */
 
+.services{
+    min-height: 80vh;
+    padding-top: 8rem;
+}
 
 .services .box-container{
     display: flex;
@@ -472,6 +488,51 @@ header .search-bar-container label:hover{
     text-decoration: line-through;
 }
 
+
+/* ------- Destinations Section --------- */
+
+.destinations{
+    min-height: 100vh;
+    padding-top: 8rem;
+}
+.destinations .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.destinations .box-container .box{
+    flex: 1 1 40rem;
+
+}
+
+.destinations .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+.destinations .box-container .box .content{
+    padding: 2rem;
+}
+
+.destinations .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.destinations .box-container .box .content h3 i{
+   color:var(--blue);
+}
+
+.destinations .box-container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+    text-transform: none;
+}
 
 
 
