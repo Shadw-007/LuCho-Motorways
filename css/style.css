@@ -37,6 +37,7 @@ section{
     justify-content: center;
     padding: 2.5rem 0;
     gap: .2rem;
+    margin-top: 8rem;
 }
 
 .services .heading{
@@ -44,6 +45,7 @@ section{
     justify-content: center;
     padding: 2.5rem 0;
     gap: .2rem;
+    margin-top: 8rem;
 }
 
 .destinations .heading{
@@ -305,7 +307,7 @@ header .search-bar-container label:hover{
     border-radius: 5rem;
     background: rgba(0, 0, 128, .7);
     position: relative;
-    top: 10rem;
+    top: 2rem;
 }
 
 .home .controls .vid-btn{
@@ -335,9 +337,10 @@ header .search-bar-container label:hover{
     margin-right: auto;
     max-width: 300px;
     border-radius: 20px;
-    margin-top: 120px;
+    margin-top: 17rem;
     margin-bottom: 25px;
     box-shadow: -7px 7px 10px 0 #000080;
+    
 }
 
 .heading{
