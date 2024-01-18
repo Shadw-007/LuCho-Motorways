@@ -449,7 +449,7 @@ header .search-bar-container label:hover{
 /* ------- Services Section -------- */
 
 .services{
-    min-height: 80vh;
+    min-height: 100vh;
     padding-top: 8rem;
 }
 
@@ -595,6 +595,9 @@ header .search-bar-container label:hover{
 
 /* ------ Contact section ------ */
 
+.contact{
+    min-height: 100vh;
+}
 
 .contact .row{
     display: flex;
