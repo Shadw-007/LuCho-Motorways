@@ -457,6 +457,7 @@ header .search-bar-container label:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 8rem;
 }
 
 .services .box-container .box{
