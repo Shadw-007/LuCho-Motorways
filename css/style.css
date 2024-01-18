@@ -645,8 +645,65 @@ header .search-bar-container label:hover{
     width: 100%;
 }
 
+/* ------ Footer Section ------- */
 
+.footer{
+    background: #000080;
+}
 
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: -2rem;
+    margin-bottom: -3rem;
+}
+
+.footer .box-container .box{
+    padding: .5rem 0;
+    flex: 1 1 25rem;
+    margin-left: rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: .7rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box .btn {
+    border: .2rem dotted var(--red);
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.footer .box-container .box a:hover{
+    color: var(--red);
+    text-decoration: underline;
+    transition: .5s linear;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+}
+
+.footer .credit span{
+    color: var(--red);
+}
 
 /* ------ Media queries -------- */
 
